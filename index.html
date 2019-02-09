@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Complemen tos de formación</title>
+        <script src="jdataview.js"></script>
+        <script src="jsspeccy-core.min.js"></script>
+
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica, Arial, sans-serif;
+				background-color: #222;
+				color: #ddd;
+			}
+			h1, h2 {
+				padding: 0; margin: 0;
+			}
+			a:link {
+				color: #77f;
+			}
+			a:visited {
+				color: #97f;
+			}
+			a:hover, a:active {
+				color: #99f;
+			}
+			#jsspeccy {
+				margin: 10px;
+				padding-right: 10px;
+				float: left;
+				/*margin: 0 auto;*/
+			    /*width: 320px; */
+			}
+
+		</style>
+
+
+
+        <script>
+            function go() {
+                var jsspeccy = JSSpeccy('speccy', {
+                    'autostart': false,
+                    'autoload': true,
+                    'scaleFactor': 2,
+                    'loadFile': 'juanbe.tap'
+                });
+            }
+        </script>
+    </head>
+    <body onload="go()">
+        <div id="speccy"></div>
+    </body>
+</html>
