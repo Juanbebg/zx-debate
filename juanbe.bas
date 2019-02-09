@@ -2,8 +2,6 @@
 
 10 REM Trabajo de complementos. Juan Braga
 
-
-
 12 CLS
 13 PAPER 7: INK 0: BRIGHT 0
 14 BORDER 0
