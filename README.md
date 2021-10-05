@@ -1,4 +1,6 @@
-# zx_debate
+# zx_debate - Trabajo final MAES
+
+Trabajo para la asignatura Complementos de Formación del Master en Profesorado de la Universidad de Granada
 
 Pregunta para debate https://erseco.github.io/zx_debate/
 
