@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Complemen tos de formación</title>
-        <script src="jdataview.js"></script>
+        <script src="jsspeccy/jsspeccy.js"></script>
         <script src="jsspeccy-core.min.js"></script>
 
 		<style>
@@ -29,26 +29,21 @@
 				margin: 10px;
 				padding-right: 10px;
 				float: left;
-				/*margin: 0 auto;*/
-			    /*width: 320px; */
 			}
-
 		</style>
-
-
-
         <script>
             function go() {
                 var jsspeccy = JSSpeccy('speccy', {
-                    'autostart': false,
-                    'autoload': true,
-                    'scaleFactor': 2,
-                    'loadFile': 'juanbe.tap'
+                    autostart: false,
+                    autoload: true,
+                    scaleFactor: 2,
+                    loadFile: 'ernesto.tap'
                 });
             }
         </script>
     </head>
     <body onload="go()">
         <div id="speccy"></div>
+		Codigo fuente disponible en <a href="http://github.com/erseco/zx_debate/">http://github.com/erseco/zx_debate</a>
     </body>
 </html>

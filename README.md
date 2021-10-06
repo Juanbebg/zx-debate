@@ -1,6 +1,8 @@
-# zx_debate
+# zx_debate - Trabajo final MAES
 
-Pregunta para debate https://juanbebg.github.io/zx_debate/
+Trabajo para la asignatura Complementos de Formación del Master en Profesorado de la Universidad de Granada
+
+DEMO: Pregunta para debate https://erseco.github.io/zx_debate/
 
 Resolución de pantalla: 32 x 24 = 764 caracteres
 
@@ -8,6 +10,8 @@ No usar vocales acentuadas
 
 Compilar con zxbasic usando por ejemplo:
 
-zxb -o work1.tap -t -B -a trajb.bas
+```
+zxb -o ernesto.tap -t -B -a ernesto.bas
+```
 
-trabj---> Juanbe
+> This project uses part of this amazing project https://github.com/gasman/jsspeccy2
